@@ -1,0 +1,32 @@
+/* Write your code here. */
+.emoContainer {
+  width: 200px;
+  height: 200px;
+
+  background-color: #ffffff33;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid #ffffff30;
+  margin: 10px;
+  cursor: pointer;
+}
+@media screen and (max-width: 767px) {
+  .emoContainer {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff33;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #ffffff30;
+    margin: 10px;
+    cursor: pointer;
+  }
+  .emoSize {
+    width: 80%;
+    height: auto;
+  }
+}

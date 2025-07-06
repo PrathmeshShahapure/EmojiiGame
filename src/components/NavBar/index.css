@@ -1,0 +1,43 @@
+.navbar {
+  height: 10vh;
+  width: 100vw;
+  background-color: #ffffff33;
+  display: flex;
+  color: #ffffff;
+  font-family: Roboto;
+  padding: 10px 80px;
+  justify-content: space-between;
+  align-items: center;
+}
+.navText {
+  font-size: 20px;
+  font-weight: 600;
+}
+.logoNameCon {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.logo {
+  min-height: 30px;
+  min-width: 30px;
+}
+.scoreCon {
+  display: flex;
+  font-size: 18px;
+  font-weight: 500;
+  gap: 20px;
+}
+@media screen and (max-width: 767px) {
+  .navbar {
+    height: 10vh;
+    width: 100vw;
+    background-color: #ffffff33;
+    display: flex;
+    color: #ffffff;
+    font-family: Roboto;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
